@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  nav ul, nav{
+  
+    display: flex;
+   
+    flex-wrap: wrap;
+    background-color: rgb(197, 216, 233);
+  }
+  nav ul{
+    flex: 1;
+  }
+  
+  nav ul li {
+   
+    flex-direction: row;
+    /* justify-content: space-around; */
+    list-style: none;
+    padding: 2rem;
+    margin-left: 2rem;
+  }
+  nav a{
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .navCart{
+    font-size: 1.5rem;
+    padding:  1.5rem;
+  }
+  .productsContainer{
+    padding-left: 5rem;
+    /* border: 2px solid red; */
+  }
+  
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  img {max-width:100%;}
+  
+   .item{
+    flex-basis: 30%;
+    max-width: 30%; 
+    padding: 3rem;
+    box-sizing: border-box;
+   
+   
+     /* border: 1px solid red;  */
+  }
+  .products .item .item-container{
+   
+      padding: 1rem;
+      border: 1px solid gray;  
+  }
+  .item-img{
+  
+  }
+  .row1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row1Child{
+    flex-basis: 30%;
+    max-width: 30%; 
+    justify-content: space-around;
+      
+    margin: auto;
+  }
+  .myCart{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 2rem;
+  }
+  .cart-header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+  .cart-item{
+    display: flex;
+    justify-content: space-around;
+  
+    padding: 1rem;
+    border: 1px solid black;
+   
+    align-items: center;
+    
+  }
+  .column1, .column2, .column3{
+    /* border: 1px solid greenyellow; */
+  }
+  .item-info {
+    /* width: 10%; */
+    flex-basis: 30%;
+    max-width: 5%;  
+  }
+  .box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  }
+  .plus,.number,.minus{
+    padding: 6px;
+  }
+  .minus, .plus{
+    
+    cursor: pointer;
+    
+  }
+   .remove{
+    padding:  10px;
+  }
+  
+  .cart-items{
+   
+  }
+   .subtotal{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4rem;
+  
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .footerMain{
+    text-align: center;
+    padding: 4rem;
+    border-top: 1px solid grey;
+  }
